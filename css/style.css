@@ -1094,6 +1094,12 @@ button,
   row-gap: 31px;
 }
 
+.tabs__block {
+  padding: 40px 60px;
+  background-color: #ffffff;
+  border-radius: 16px;
+}
+
 .plan {
   display: flex;
   flex-direction: column;
@@ -1743,6 +1749,10 @@ button,
     background-color: #ffffff;
   }
 
+  .tabs__block {
+    padding: 20px 30px;
+  }
+
   .plan {
     padding: 20px 30px;
   }
@@ -1850,6 +1860,10 @@ button,
 
   .tabs__controls-group:last-child > .tabs__control:last-of-type {
     margin-right: 26px;
+  }
+
+  .tabs__block {
+    padding: 20px 18px;
   }
 
   .plan {
