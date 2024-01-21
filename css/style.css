@@ -1511,6 +1511,9 @@ button,
 .header__tarif-link {
   position: relative;
   padding-left: 36px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
 }
 
 .header__tarif-link::before {
@@ -1755,10 +1758,6 @@ button,
   .header {
     position: fixed;
     background-color: #ffffff;
-  }
-
-  .header__logo {
-    margin: 0;
   }
 
   .header__row-content {
